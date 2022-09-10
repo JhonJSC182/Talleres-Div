@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+    .page {
+        display: grid;
+        grid-template-areas: 
+        'header header header header header header'
+        'menu menu main main main .'
+        'footer footer footer footer footer .';
+        background-color: black;
+    }
+
+    .page div {
+        border: 2px solid;
+    }
+
+    .footer {
+        grid-area: footer;
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        height: 600px;
+        background-color: grey;
+    }
+
+
+
+
+
+
+    .header {
+        grid-area: header;
+        background-color: rgb(233, 51, 51);
+        height: 20vh;
+        width: 100%;
+        position: relative;
+    }
+
+
+    .logo {
+        width: 100px;
+        margin-left: 2%;
+        top: 20%;
+        border-radius: 100%;
+        position: absolute;
+    }
+
+    .avatar {
+        width: 110px;
+        height: 110px;
+        right: 2%;
+        position: absolute;
+        top: 20%;
+        border-radius: 100%;
+    }
+
+    .header h1 {
+        position: absolute;
+        right: 45%;
+        top: 30%;
+    }
+
+    .menu {
+        grid-area: menu;
+        background-color: yellowgreen;
+        height: 450px;
+        width: 600px;
+    }
+
+    .nomina {
+        margin-left: 200px;
+        top: 30%;
+        position: absolute;
+        cursor: pointer;
+    }
+
+
+    .felicitaciones {
+        margin-left: 200px;
+        top: 41%;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .reservas {
+        margin-left: 200px;
+        top: 52%;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .noticias {
+        margin-left: 200px;
+        top: 63%;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .main {
+        grid-area: main;
+        display: grid;
+        grid-template-columns: repeat(4,200px);
+        background-color: yellow;
+        justify-content: center;
+        width: 1050px;
+    }
+
+    .p1 {
+        grid-column: 1 / 4;
+    }
+
+    .p10 {
+        grid-row: 3 / span 3;
+        grid-column: 4;
+    }
+
+    .p14 {
+        grid-column: 1 / span 2;
+    }
+
+    .footer img {
+        width: 550px;
+    }
+
+
+
+</style>
+
+
+
+<body>
+    <div class="page">
+
+        <div class="header"> 
+            <img class="logo" src="https://foroalfa.org/imagenes/ilustraciones/logotipo-y-logo.jpg">
+            <img class="avatar" src="https://dg9aaz8jl1ktt.cloudfront.net/rewards/000/201/039/cover_ea540a13515af1ebf6458d00259604f1.jpg?1617051179">
+            <h1>THE WORLD IS YOURS?</h1>
+        </div>
+
+        <div class="menu">
+            <h2 class="nomina" >Nomina</h2>
+            <h2 class="felicitaciones" >Felicitaciones</h2>
+            <h2 class="reservas" >Reservas</h2>
+            <h2 class="noticias" >Noticias</h2>
+        </div>
+
+        <div class="main">
+            <div class="p1">1</div>
+            <div class="p2">2</div>
+            <div class="p3">3</div>
+            <div class="p4">4</div>
+            <div class="p5">5</div>
+            <div class="p6">6</div>
+            <div class="p7">7</div>
+            <div class="p8">8</div>
+            <div class="p9">9</div>
+            <div class="p10">10</div>
+            <div class="p11">11</div>
+            <div class="p12">12</div>
+            <div class="p13">13</div>
+            <div class="p14">14</div>
+            <div class="p15">15</div>
+        </div>
+
+        <div class="footer">
+            <div class="c1">
+                <img src="https://www.redclara.net/images/Human_Brain_Project_ES.jpg">
+            </div>
+
+            <div class="c2">
+                <img src="https://www.redclara.net/images/Human_Brain_Project_ES.jpg">
+            </div>
+
+
+            <div class="c3">
+                <img src="https://www.redclara.net/images/Human_Brain_Project_ES.jpg">
+            </div>
+
+            <div class="c4">
+                <img src="https://www.redclara.net/images/Human_Brain_Project_ES.jpg">
+            </div>
+
+            <div class="c5">
+                <img src="https://www.redclara.net/images/Human_Brain_Project_ES.jpg">
+            </div>
+
+            <div class="c6">
+                <img src="https://www.redclara.net/images/Human_Brain_Project_ES.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
