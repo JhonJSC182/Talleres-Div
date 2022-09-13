@@ -1,0 +1,140 @@
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(145, 145, 145);
+    border: 5px solid;
+    height: 3300px;
+    align-content: center
+}
+
+.flexbox div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+    width: 48%;
+    height: 1600px;
+    margin-left: 9px;
+    background-color: white;
+    margin-top: 5px;
+    align-content: center;
+}
+
+.box1 div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    background-color: grey;
+    margin-top: 45px;
+    height: 850px;
+    width: 90%;
+    margin-left: 40px;
+
+}
+
+.box2 div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    background-color: grey;
+    margin-top: 45px;
+    height: 850px;
+    width: 90%;
+    margin-left: 40px;
+}
+
+.box3 div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    background-color: grey;
+    margin-top: 45px;
+    height: 1530px;
+    width: 90%;
+    margin-left: 40px;
+    align-content: center;
+}
+
+.box4 div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    background-color: grey;
+    margin-top: 45px;
+    height: 1530px;
+    width: 90%;
+    margin-left: 40px;
+    justify-content: center;
+}
+
+.boxp1 div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+.boxp2 div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    height: 170px;
+    justify-content: center;
+}
+
+.boxp3  div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 200px;
+    justify-content: center;
+}
+
+.boxp4 {
+    flex-direction: column-reverse;
+
+}
+
+
+.boxp4 div {
+    width: 200px;
+    height: 170px;
+
+    }
+
+@media (max-width: 800px) {
+.boxp4 div {
+    background-color: aqua;
+    }
+}
+
+
+
+
+
+.itemsA1 {
+    order: 3;
+}
+
+.itemsA2 {
+    order: 5;
+}
+
+.itemsA3 {
+    order: 1;
+}
+
+.itemsA4 {
+    order: 4;
+}
+
+.itemsA5 {
+    order: 6;
+}
+
+.itemsA6 {
+    order: 2;
+}
+
+
+
